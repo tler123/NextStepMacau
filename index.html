@@ -217,6 +217,12 @@
             object-fit: cover;
             border: 5px solid var(--light-gray);
             margin-bottom: 20px;
+            background-color: var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray);
+            font-size: 2.5rem;
         }
         
         .story-quote {
@@ -385,6 +391,12 @@
             width: 100%;
             height: 200px;
             object-fit: cover;
+            background-color: var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray);
+            font-size: 3rem;
         }
         
         .mentor-info {
@@ -456,6 +468,12 @@
             width: 100%;
             height: 200px;
             object-fit: cover;
+            background-color: var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray);
+            font-size: 3rem;
         }
         
         .event-info {
@@ -730,11 +748,13 @@
             <h2 class="section-title">Success in Action</h2>
             <div class="story-card">
                 <div class="story-content">
-                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Chan Siu Ming" class="story-img">
-                    <p class="story-quote">"After the retail workshop, I secured a job at a luxury hotel within two weeks!"</p>
-                    <h3 class="story-name">Chan Siu Ming</h3>
+                    <div class="story-img">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <p class="story-quote">"After completing the retail workshop, I secured a position at a luxury hotel within two weeks!"</p>
+                    <h3 class="story-name">Recent Graduate</h3>
                     <p class="story-role">Former Retail Associate, Now Hotel Concierge</p>
-                    <p>Siu Ming was unemployed for 6 months. He took our 'Hospitality & Retail Fundamentals' workshop and was matched with a mentor from the hotel industry.</p>
+                    <p>This individual was unemployed for 6 months before taking our 'Hospitality & Retail Fundamentals' workshop and connecting with a mentor from the hotel industry.</p>
                     <a href="#" class="btn" style="margin-top: 20px;">Read More Stories</a>
                 </div>
             </div>
@@ -808,19 +828,23 @@
                     <p>Talk to an expert who can guide you in your chosen field</p>
                     <div class="mentor-grid">
                         <div class="mentor-card">
-                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Li Wei" class="mentor-img">
+                            <div class="mentor-img">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
                             <div class="mentor-info">
-                                <h4 class="mentor-name">Li Wei</h4>
-                                <p class="mentor-role">Director of Operations, Grand Lisboa Hotel</p>
+                                <h4 class="mentor-name">Hospitality Industry Expert</h4>
+                                <p class="mentor-role">Senior Manager, Luxury Hotel Group</p>
                                 <p class="mentor-expertise">Expertise: Hospitality Management, Resume Reviews</p>
                                 <a href="#" class="btn btn-accent" style="width: 100%;">View Profile</a>
                             </div>
                         </div>
                         <div class="mentor-card">
-                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Maria Santos" class="mentor-img">
+                            <div class="mentor-img">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
                             <div class="mentor-info">
-                                <h4 class="mentor-name">Maria Santos</h4>
-                                <p class="mentor-role">HR Manager, MGM Macau</p>
+                                <h4 class="mentor-name">HR Professional</h4>
+                                <p class="mentor-role">HR Manager, Major Resort</p>
                                 <p class="mentor-expertise">Expertise: Interview Preparation, Career Transition</p>
                                 <a href="#" class="btn btn-accent" style="width: 100%;">View Profile</a>
                             </div>
@@ -865,28 +889,34 @@
             
             <div class="mentor-grid">
                 <div class="mentor-card">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Zhang Wei" class="mentor-img">
+                    <div class="mentor-img">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
                     <div class="mentor-info">
-                        <h4 class="mentor-name">Zhang Wei</h4>
-                        <p class="mentor-role">Marketing Director, Wynn Macau</p>
+                        <h4 class="mentor-name">Marketing Director</h4>
+                        <p class="mentor-role">Marketing Director, Major Resort</p>
                         <p class="mentor-expertise">Expertise: Digital Marketing, Brand Management</p>
                         <a href="#" class="btn btn-accent" style="width: 100%;">Book Session</a>
                     </div>
                 </div>
                 <div class="mentor-card">
-                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ana Rodrigues" class="mentor-img">
+                    <div class="mentor-img">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
                     <div class="mentor-info">
-                        <h4 class="mentor-name">Ana Rodrigues</h4>
-                        <p class="mentor-role">Finance Manager, Sands China</p>
+                        <h4 class="mentor-name">Finance Manager</h4>
+                        <p class="mentor-role">Finance Manager, Casino Group</p>
                         <p class="mentor-expertise">Expertise: Financial Planning, Career Advancement</p>
                         <a href="#" class="btn btn-accent" style="width: 100%;">Book Session</a>
                     </div>
                 </div>
                 <div class="mentor-card">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Carlos Fernandez" class="mentor-img">
+                    <div class="mentor-img">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
                     <div class="mentor-info">
-                        <h4 class="mentor-name">Carlos Fernandez</h4>
-                        <p class="mentor-role">IT Director, Melco Resorts</p>
+                        <h4 class="mentor-name">IT Director</h4>
+                        <p class="mentor-role">IT Director, Entertainment Company</p>
                         <p class="mentor-expertise">Expertise: Tech Careers, Project Management</p>
                         <a href="#" class="btn btn-accent" style="width: 100%;">Book Session</a>
                     </div>
@@ -903,7 +933,9 @@
             
             <div class="events-grid">
                 <div class="event-card">
-                    <img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Charity Concert" class="event-img">
+                    <div class="event-img">
+                        <i class="fas fa-music"></i>
+                    </div>
                     <div class="event-info">
                         <div class="event-date">
                             <i class="far fa-calendar"></i>
@@ -918,7 +950,9 @@
                     </div>
                 </div>
                 <div class="event-card">
-                    <img src="https://images.unsplash.com/photo-1551830410-95c7e31dcea7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Charity Job Fair" class="event-img">
+                    <div class="event-img">
+                        <i class="fas fa-handshake"></i>
+                    </div>
                     <div class="event-info">
                         <div class="event-date">
                             <i class="far fa-calendar"></i>
